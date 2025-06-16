@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="all-content">
+      <div class="head">
+        <h1>
+          <p>
+            this is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get get started.
+          </p>
+          <p>You know you want to</p>
+        </h1>
+      </div>
+      <div class="form">
+        <form action="/sign-up" method="post">
+          <div class="form-field">
+            <label for="first-name"></label><span>First Name *</span>
+            <input type="text" id="first-name" />
+          </div>
+          <div class="form-field">
+            <label for="last-name"></label><span>Last Name *</span>
+            <input type="text" id="last-name" />
+          </div>
+          <div class="form-field">
+            <label for="user-email"></label><span>Email *</span>
+            <input type="email" id="user-email" />
+          </div>
+          <div class="form-field">
+            <label for="user-phonenumber"></label><span>Phone Number *</span>
+            <input type="text" id="user-phonenumber" />
+          </div>
+          <div class="form-field">
+            <label for="user-password"></label><span>PASSWORD *</span>
+            <input type="password" id="user-password" />
+          </div>
+          <div class="form-field">
+            <label for="confirm-password"></label>
+            <span>CONFIRM PASSWORD *</span>
+            <input type="password" id="confirm-password" />
+          </div>
+        </form>
+        <div class="btn">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? Log in</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
