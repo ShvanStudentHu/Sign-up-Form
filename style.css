@@ -1,10 +1,82 @@
-.all-content {
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 940px;
+}
+
+img {
+  width: 300px;
+  height: 640px;
+}
+
+.right-side {
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  background-color: whitesmoke;
+  gap: 1em;
+}
+
+button {
+  margin-top: 2em;
+  width: 20em;
+  height: 2em;
+}
+
+.text {
+  align-self: flex-start;
+  width: auto;
 }
 
 form {
+  border: 1px solid black;
   display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+input {
+  height: 20px;
+  margin-right: 1em;
+}
+
+.part {
+  display: flex;
+  gap: 1em; /* ✅ adds consistent space between the two columns */
+  margin-bottom: 0.5em; /* optional: adds vertical spacing between rows */
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 15em;
+}
+
+.text {
+  margin: -6em 2em 0em;
+  position: relative;
+}
+
+form {
+  margin-right: 3em;
+  margin-top: 1em;
+  width: max-content;
+  margin-left: 2em;
 }
