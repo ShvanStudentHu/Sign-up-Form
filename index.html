@@ -3,60 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <title>Sign Up form</title> -->
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="main">
-      <div class="image">
-        <img src="./image/background" alt="" srcset="" />
-      </div>
-      <div class="right-side">
+      <div class="image"></div>
+      <div class="right-content">
         <div class="text">
           <h2>
-            this is not a real online service! You know you need something like
-            this in your life to help you realize your deepest dreams.
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started
           </h2>
-          <h2>Sign up now to get get started.</h2>
+          <h2>You know you want to</h2>
         </div>
+        <div class="form">
+          <form action="./sign-up.html" method="post" id="user-info">
+            <h2>lets do this!</h2>
+            <div class="part">
+              <div class="input">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="fname" />
+              </div>
+              <div class="input">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="lname" />
+              </div>
+            </div>
 
-        <form action="" method="post">
-          <div class="part">
-            <div class="input">
-              <label>first Name </label>
-              <input type="text" />
-            </div>
-            <div class="input">
-              <label> Last Name </label>
-              <input type="text" />
-            </div>
-          </div>
+            <div class="part">
+              <div class="input">
+                <label for="user-mail">Email</label>
+                <input type="email" id="user-mail" name="mail" />
+              </div>
 
-          <div class="part">
-            <div class="input">
-              <label>email </label>
-              <input type="text" class="text-input" />
+              <div class="input">
+                <label for="user-phone">Phone Number</label>
+                <input type="tel" id="user-phone" name="phoneN" />
+              </div>
             </div>
-            <div class="input">
-              <label>Phone Number </label>
-              <input type="text" />
-            </div>
-          </div>
-          <div class="part">
-            <div class="input">
-              <label>password </label>
-              <input type="text" />
-            </div>
-            <div class="input">
-              <label>Confirm Password </label>
-              <input type="text" />
-            </div>
-          </div>
-        </form>
 
-        <div class="btn"><button type="submit">Create Account</button></div>
-        <p>Already have an account? Log in</p>
+            <div class="part">
+              <div class="input">
+                <label for="pwd">password</label>
+                <input type="password" id="pwd" name="pass" pattern="" />
+              </div>
+
+              <div class="input">
+                <label for="confirm-pwd">confirm password</label>
+                <input type="password" id="pwd" name="pass" pattern="" />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="btn">
+          <button type="submit" form="user-info">Create Account</button>
+          <p>Already have an account? <a href="">Log in</a></p>
+        </div>
       </div>
     </div>
   </body>
+  <script src="./javascript.js"></script>
 </html>
