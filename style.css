@@ -80,7 +80,7 @@ form h2 {
 }
 
 .text h2 {
-  max-width: 90%;
+  max-width: 88%;
 }
 /* .a,
 .b,
@@ -115,4 +115,40 @@ input:focus {
 
 .part {
   gap: 6.5em;
+}
+
+#odin {
+  width: 8em;
+  height: 8em;
+  opacity: 1;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 10em;
+  background-color: rgba(0, 0, 0, 0.5); /* black with 50% alpha */
+
+  font-size: larger;
+  color: white;
+}
+
+.logo p {
+  opacity: 1;
+  color: white;
+  font-size: 90px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 545px;
+  color: white;
+}
+#halie {
+  text-decoration: underline;
+}
+
+#now {
+  text-decoration: line-through;
 }
