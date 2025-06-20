@@ -40,10 +40,6 @@ body {
   gap: 1.5em;
 }
 
-.text {
-  /* background-color: purple; */
-}
-
 .form {
   display: flex;
   background-color: white;
